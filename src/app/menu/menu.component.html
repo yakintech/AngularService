@@ -1,0 +1,16 @@
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+
+      <div *ngFor="let item of data">
+        <h4>{{item.name}}</h4>
+        <p class="w3-text-grey">{{item.desc}} {{item.price}}</p><br>  
+      </div>
+
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="https://www.w3schools.com/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
