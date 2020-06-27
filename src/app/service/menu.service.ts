@@ -11,4 +11,6 @@ export class MenuService {
   GetMenus(){
     return menufoods;
   }
+
+
 }
